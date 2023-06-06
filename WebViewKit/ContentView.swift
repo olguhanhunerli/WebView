@@ -9,7 +9,7 @@ import SwiftUI
 import WebKit
 
 struct ContentView: View {
-    @State private var urlString = ""
+    @State private var urlString = "https://extrydev.com"
     var body: some View {
     WebView(urlString: urlString)
         
